@@ -1,0 +1,111 @@
+body{
+	background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+	font-family: 'Myfont';
+	box-sizing: border-box;
+}
+
+form {
+	width: 420px;
+    border: 2px solid black;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    border-color: black;
+    margin-top: 50px;
+    height: 600px;
+}
+.body{
+    background-color: lightgreen;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.menu{
+    background-color:pink;
+}
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 390px;
+	padding: 10px;
+	margin: 5px auto;
+    border-radius: 5px;
+    height: 6px;
+}
+label {
+	font-weight: bold;
+    color: #888;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: -5px;
+}
+
+button {
+	float: right;
+	background: lightgreen;
+	padding: 10px 15px;
+	color:black;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+body::-webkit-scrollbar {
+    width: 0.7em;
+  }
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: yellowgreen;
+    outline: 1px solid slategrey;
+}

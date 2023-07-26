@@ -1,0 +1,14 @@
+.b1
+{
+    height:250px;
+    width:175px;
+    border:2px solid;
+    margin-left:100px;
+}
+
+.b2
+{
+    height:140px;
+    width:125px;margin:25px auto;
+    border:1px solid;
+}
